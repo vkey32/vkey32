@@ -54,7 +54,7 @@ void sisi(){
             cout << W[i][j] << " ";   }
         cout << endl;    } }
 
-void pewarnaan( int i ){
+void pewarnaan(int i){
     m = i;
     m_coloring( 0 ); }
 
@@ -79,12 +79,12 @@ int main(){
     int derajat[n];
     const int size = 5;
 
-    cout << "List Kota : " <<endl;
-    cout << "0. Kudus " <<endl;
-    cout << "1. Pati " <<endl;
-    cout << "2. Jepara " <<endl;
-    cout << "3. Blora " <<endl;
-    cout << "4. Rembang \n" <<endl;
+    cout << "List Kota : " << endl;
+    cout << "0. Kudus " << endl;
+    cout << "1. Pati " << endl;
+    cout << "2. Jepara " << endl;
+    cout << "3. Blora " << endl;
+    cout << "4. Rembang \n" << endl;
 
     for (int i = 0; i < n; i++)
     {
